@@ -49,6 +49,8 @@ Usage:
  - Graphical time of day tracker.
  - An ASCII art alternative to the tracker built into Nexus.
  
+ Here's the [forums post](forums.achaea.com/discussion/7403/graphical-day-night-tracker-mudlet-alternative) I announced it in.
+ 
 --------
 
 ### RTrack
