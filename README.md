@@ -55,6 +55,8 @@ Usage:
  - Easy GMCP tracking of players, afflictions, defences, and room items.
  - See forums post for more details.
 
+> :warning: This script contains inaccuracies, and is no longer updated. It's here because it's still useful, and the mistakes are minor.
+
 Here's the [forums post](forums.achaea.com/discussion/7397/rtrack-easy-gmcp-tracking-of-players-affs-defs-and-room-items) I announced it in.
 
 ```python
