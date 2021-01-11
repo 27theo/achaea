@@ -1,6 +1,6 @@
 # My Mudlet Packages for Achaea.
 
-> :warning: See above for downloads. Use these, not the links in my forums posts.
+> :warning: See above for downloads. Use these, not the links in my forums posts. I'm maintaining the scripts here, unless stated otherwise.
 
 ### riftCheck
 - Check the contents of your rift against a list of all herbs, minerals, elixirs, salves, venoms, and inks.
