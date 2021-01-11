@@ -2,7 +2,7 @@
 
 > :warning: See above for downloads. Use these, not the links in my forums posts.
 
-### Rift Checker
+### riftCheck
 - Check the contents of your rift against a list of all herbs, minerals, elixirs, salves, venoms, and inks.
 - Easily identify which curatives, if any, you're nearly out or out of.
 - Script contains configuration tables, easily modified to, in turn, modify the output.
@@ -45,8 +45,8 @@ Usage:
 
 --------
 
-### Graphical Day/Night Tracker
- - Time of day tracker.
+### daybox
+ - Graphical time of day tracker.
  - An ASCII art alternative to the tracker built into Nexus.
  
 --------
