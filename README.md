@@ -11,7 +11,7 @@
   - Change what herbs, minerals, and venoms count as important.
   - Changeable threshold values for colour coding.
 
-Here's the [forums post](forums.achaea.com/discussion/7462/mudlet-rift-checker-easily-tell-what-youre-running-out-of) I announced it in.
+Here's the [forums post](https://forums.achaea.com/discussion/7462/mudlet-rift-checker-easily-tell-what-youre-running-out-of) I announced it in.
 
 ```python
 Usage:
@@ -26,7 +26,7 @@ Usage:
    - Number of times you've been killed by them/it.
  - Allows for a simple search. 
 
-Here's the [forums post](forums.achaea.com/discussion/7438/killcount-kill-tracker-for-mudlet) I announced it in.
+Here's the [forums post](https://forums.achaea.com/discussion/7438/killcount-kill-tracker-for-mudlet) I announced it in.
 
 ```python
 Usage:
@@ -37,8 +37,8 @@ Usage:
     kc remove <name>  -> remove name from the table.
     
     kc name <k|d> <modifier> -> modify name's "killed by you" or "deaths to" count by the given modifier. this is for manual modifications.
-                                e.g. "kc Shirim d +1" (this would increase the number of times you've killed Shirim by one.)
-                                     "kc Cala k -4" (this would decrease the number of times you've died to Cala by four.)
+                                e.g. "kc Shirim k +1" (this would increase the number of times you've killed Shirim by one.)
+                                     "kc Cala d -4" (this would decrease the number of times you've died to Cala by four.)
                                      
     kc help           -> see this output.
 ```
@@ -49,7 +49,7 @@ Usage:
  - Graphical time of day tracker.
  - An ASCII art alternative to the tracker built into Nexus.
  
- Here's the [forums post](forums.achaea.com/discussion/7403/graphical-day-night-tracker-mudlet-alternative) I announced it in.
+ Here's the [forums post](https://forums.achaea.com/discussion/7403/graphical-day-night-tracker-mudlet-alternative) I announced it in.
  
 --------
 
@@ -59,7 +59,7 @@ Usage:
 
 > :warning: This script contains inaccuracies, and is no longer updated. It's here because it's still useful, and the mistakes are minor.
 
-Here's the [forums post](forums.achaea.com/discussion/7397/rtrack-easy-gmcp-tracking-of-players-affs-defs-and-room-items) I announced it in.
+Here's the [forums post](https://forums.achaea.com/discussion/7397/rtrack-easy-gmcp-tracking-of-players-affs-defs-and-room-items) I announced it in.
 
 ```python
 Usage:
