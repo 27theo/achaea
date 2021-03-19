@@ -2,9 +2,10 @@
 
 > :warning: See above for downloads. Use these, not the links in my forums posts. I'm trying to maintain both the dropbox files and this repository, but this repository will always be updated first. 
 
-###  tk
+###  TK
  - Simple, efficient, and easy to integrate GMCP tracking.
  - Afflictions, defences, players, and room items.
+ - Customisable echos.
  - Fully configurable, with readable code.
  - Less built in with the package, for those who just want to plug and play without having to enable/disable certain features.
 
@@ -63,7 +64,7 @@ Usage:
  - Easy GMCP tracking of players, afflictions, defences, and room items.
  - See forums post for more details.
 
-> :warning: This script contains inaccuracies, and is no longer updated.
+> :warning: This script contains inaccuracies, and is no longer updated. Just use TK.
 
 Here's the [forums post](https://forums.achaea.com/discussion/7397/rtrack-easy-gmcp-tracking-of-players-affs-defs-and-room-items) I announced it in.
 
