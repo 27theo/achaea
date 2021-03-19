@@ -2,6 +2,12 @@
 
 > :warning: See above for downloads. Use these, not the links in my forums posts. I'm trying to maintain both the dropbox files and this repository, but this repository will always be updated first. 
 
+###  tk
+ - Simple, efficient, and easy to integrate GMCP tracking.
+ - Afflictions, defences, players, and room items.
+ - Fully configurable, with readable code.
+ - Less built in with the package, for those who just want to plug and play without having to enable/disable certain features.
+
 ### riftCheck
 - Check the contents of your rift against a list of all herbs, minerals, elixirs, salves, venoms, and inks.
 - Easily identify which curatives, if any, you're nearly out or out of.
