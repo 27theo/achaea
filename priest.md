@@ -339,7 +339,7 @@ I don't use this to automate my affliction choice, because I like having full co
 
 In my opinion, some form of limb counter is a must. You can use AK for limb tracking, but I somewhat prefer Antonius' tracker for a few extra functions it has, as well as using limb break health thresholds as opposed to proximity values. 
 
-I display limb data in the same console that I do afflictions. [Here is a demonstration](https://www.youtube.com/watch?v=2fTlgb2yq3Q).
+I display limb data in the same console that I do afflictions. [Here is a visual demonstration which I uploaded onto YouTube](https://www.youtube.com/watch?v=2fTlgb2yq3Q).
 
 ------
 
