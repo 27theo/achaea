@@ -54,6 +54,32 @@ Usage:
 
 --------
 
+### easy API lookup
+ - Very simple Achaea charater API lookup.
+ - Returns character information like so:
+
+```
+{
+  city = "targossas",
+  class = "priest",
+  explorer_rank = "473",
+  fullname = "Romaen Andeithus, Herald of Redemption",
+  house = "harbingers",
+  level = "87",
+  mob_kills = "2347",
+  name = "Romaen",
+  player_kills = "223",
+  xp_rank = "542"
+}
+```
+
+```python
+Usage: 
+    api <name>    -> display information for "name"
+```
+
+--------
+
 ### daybox
  - Graphical time of day tracker.
  - An ASCII art alternative to the tracker built into Nexus.
