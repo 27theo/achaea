@@ -2,7 +2,7 @@
 
 Hi all. I thought I'd make this scroll to help newcomers to the Priest class set up the basic scripts you need to get fighting. Setting up an offense is only the first step, of course - practice and familiarity with your class and others are equally if not more important. 
 
-Also, this isn't meant to be a scroll detailing _how_ to fight as a Priest (what afflictions to give, when to give them etc). If it ends up useful in that regard then great, but if it seems scarce on tactics and such, that's why.
+This isn't meant to be a scroll detailing _how_ to fight as a Priest (what afflictions to give, when to give them etc). If it ends up useful in that regard then great, but if it seems scarce on tactics and such, that's why.
 
 ------
 
