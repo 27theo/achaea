@@ -120,7 +120,7 @@ This is very similar to the other combatAlias function, but it takes a table as 
 
 This function takes the table as an input, and concatenates (table.concat) it into a string, joining it with a "/" character. Therefore, the results of both the example aliases will be the same.
 
-This is the combatAlias function I'll be using in examples. I prefer it for reasons I'll detail below.
+**This (second version) is the combatAlias function I'll be using in examples. I prefer it for reasons I'll detail below.**
 
 ### 1.4) The Artful Master Alias
 
