@@ -216,9 +216,9 @@ function combatAlias(tab)
   if not target or target == "" then return end
   
   if noRebuke then -- (if not meant to be rebuking)
-	for k, v in pairs(tab) do 
-	  tab[k] = v:gsub("rebuke %a+", "")
-	end
+    for k, v in pairs(tab) do 
+      tab[k] = v:gsub("rebuke %a+", "")
+    end
   end
   
   sendAll("setalias pk touch stuff/stand/wield mace shield/" .. table.concat(tab, "/") .. "/contemplate &tar",
