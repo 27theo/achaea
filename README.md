@@ -7,7 +7,6 @@
  - Afflictions, defences, players, and room items.
  - Customisable echos.
  - Fully configurable, with readable code.
- - Less built in with the package, for those who just want to plug and play without having to enable/disable certain features.
 
 --------
 
