@@ -262,7 +262,7 @@ The possibilities are endless, and this is very useful. Monoliths, breaking shie
 
 These aliases are noisy. Here are lines that I gag, for your ease of use.
 
-```
+```lua
 -- Regex type: (blue)
 ^Alias "pk" will now execute: ".+"$
 ^\[System\]: Added (?:QUEUE ADDCLEAR CLASS )?PK to your \w+ queue\.$
@@ -294,7 +294,7 @@ deleteLine()
 
 You need to be able to tell what % an opponent's mana is at, because our mana damage works in percentages, and you must notice when the opponent's mana is below 50% so that you can absolve. The following will 
 
-```
+```lua
 -- Regex type: (blue)
 ^(\w+)\'s mana stands at (\d+)\/(\d+)\.$
 
@@ -311,7 +311,7 @@ end
 
 Good idea to highlight when your target cures guilt, too.
 
-```
+```lua
 -- Regex type: (blue)
 ^(\w+) straightens, as if some great burden had been lifted from \w+ shoulders\.$
 
@@ -335,11 +335,11 @@ There are two main scripts that I use alongside my manual functions.
 
 I don't use this to automate my affliction choice, because I like having full control. I do, however, display my target's afflictions in a box to the right of the main console, along with the probability that they have them. 
 
- 2. Antonius' Knight Limb Counter
+ 2. My Limb Counter (shameless plug)
 
-In my opinion, some form of limb counter is a must. You can use AK for limb tracking, but I somewhat prefer Antonius' tracker for a few extra functions it has, as well as using limb break health thresholds as opposed to proximity values. 
+In my opinion, some form of limb counter is a must. You can use AK for limb tracking, but it's overcomplicated and doesn't work with the in-game limb damage percentages.
 
-I display limb data in the same console that I do afflictions. [Here is a visual demonstration which I uploaded onto YouTube](https://www.youtube.com/watch?v=2fTlgb2yq3Q).
+I display limb data in the same console that I do afflictions. [Here is a visual demonstration which I uploaded to YouTube](https://www.youtube.com/watch?v=2fTlgb2yq3Q).
 
 ------
 
