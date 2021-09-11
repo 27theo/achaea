@@ -56,7 +56,7 @@ stand/parry right leg/wield mace shield/recite penance &tar rebuke darkness/smit
 (paralysis + chasten body)
 
 stand/parry left leg/wield mace shield/recite penance &tar rebuke darkness/perform dazzle &tar/contemplate &tar 
-(paralysis + confusion + dizziness)
+(paralysis + stupidity)
 
 stand/parry left leg/wield mace shield/recite penance &tar rebuke darkness/smite &tar left leg/angel push &tar/contemplate &tar 
 (paralysis + prone)
@@ -146,7 +146,6 @@ local combo = {
   l = {"penance", "healthleech"},
   n = {"penance", "nausea"},
   
-  p = {"penance", "stupidity"},
   e = {"penance", "epilepsy"},
   d = {"penance", "dizziness"},
   f = {"penance", "confusion"},
