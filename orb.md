@@ -16,8 +16,8 @@ First trigger: Reactivating the orb if you're in city.
 
 Patterns (all perl regex type):
 ```pl
-^\(Army\): \w+ says, "I've activated the city's orb of confinement\!"$
-^\(Army\): \w+ says, "I've activated the city's Orb of Confinement\!"$
+^\(Army\): \w+ says, "I've deactivated the city's orb of confinement\!"$
+^\(Army\): \w+ says, "I've deactivated the city's Orb of Confinement\!"$
 ^\(Army\): \w+ says, "I have deactivated the Orb of Confinement\."
 ^\(Army\): \w+ says, "I have deactivated the orb of confinement\."
 ```
