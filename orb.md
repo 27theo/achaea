@@ -9,7 +9,9 @@ Pattern: `^auto orb (on|off)$`
 Script:
 ```lua
 ignoreOrb = matches[2] == "off"
+cecho("\n<yellow>Automatic orb management is " .. (ignoreOrb and "<red>off" or "<green>on") .. ".")
 ```
+**Note: By default, automatic orb management will be on.**
 
 First trigger: Reactivating the orb if you're in city.
 --
