@@ -1,4 +1,4 @@
-# Mudlet Priest Offense
+# Mudlet Priest Offense (OUT OF DATE)
 
 Hi all. I thought I'd make this scroll to help newcomers to the Priest class set up the basic scripts you need to get fighting. Setting up an offense is only the first step, of course - practice and familiarity with your class and others are equally if not more important. 
 
