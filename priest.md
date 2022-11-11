@@ -44,9 +44,7 @@ Here are some of the most common queue conditions:
 
 ```lua
 -- Commands will fire when we have eq, bal, and are unhindered.
--- These two are functionally identical.
 queue addclear free kill rabbit
-queue addclear eb!p!w!t kill rabbit
 ```
 
 ```lua
@@ -57,7 +55,7 @@ queue addclear c!t recite epic at rabbit
 
 ```lua
 -- Commands will fire when we have eq, bal, class bal, and are unhindered.
-queue addclear ebc!p!w!t recite epic at Romaen|kill Romaen
+queue addclear full recite epic at Romaen|kill Romaen
 ```
 
 In the vast majority of cases, this last queue format is ideal for priest. 
@@ -78,7 +76,7 @@ Actions that people tend to include in their pre-queue:
 With those, a command would normally[^2] take this format:
 
 ```
-queue addclear ebc!p!w!t touch stuff|concentrate|parry right leg|wield mace111111 shield111111|<atk>
+queue addclear full touch stuff|concentrate|parry right leg|wield mace111111 shield111111|<atk>
 ```
 
 Some people grab gold, grab corpses, wear armour, etc.
@@ -95,11 +93,11 @@ We queue:
 3. Contemplate.
 
 ```
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite guilt Romaen|smite Romaen right leg chasten paralysis|contemplate Romaen
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen chasten mind|contemplate Romaen
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen right leg chasten body|contemplate Romaen
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite purge Romaen|smite Romaen right leg|angel push Romaen|contemplate Romaen
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|perform dazzle Romaen|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite guilt Romaen|smite Romaen right leg chasten paralysis|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen chasten mind|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen right leg chasten body|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite purge Romaen|smite Romaen right leg|angel push Romaen|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|perform dazzle Romaen|contemplate Romaen
 ```
 
 ## Scripting the queue
@@ -114,7 +112,7 @@ This is to be placed in a new script.
 function queue(attacks)
   local prequeue = "touch stuff|parry right leg|wield mace111111 shield111111"
   local sep = "|"
-  send("queue addclear ebc!p!w!t " .. prequeue .. sep .. table.concat(attacks, sep) .. sep .. "contemplate " .. target)
+  send("queue addclear full " .. prequeue .. sep .. table.concat(attacks, sep) .. sep .. "contemplate " .. target)
 end
 ```
 
@@ -144,12 +142,12 @@ We will use the queue function like so:
 
 ```lua
 queue({"recite penance " .. target, "smite " .. target .. " right leg chasten body"})
--- Sends: queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen right leg chasten body|contemplate Romaen
+-- Sends: queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen right leg chasten body|contemplate Romaen
 ```
 
 ```lua
 queue({"recite purge " .. target, "smite " .. target .. " right leg", "angel push " .. target})
--- Sends: queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite purge Romaen|smite Romaen right leg|angel push Romaen|contemplate Romaen
+-- Sends: queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite purge Romaen|smite Romaen right leg|angel push Romaen|contemplate Romaen
 ```
 
 ## Aliases
@@ -228,19 +226,19 @@ So, we can map one letter to two afflictions using the combo table. `g` to guilt
 
 `ghh` translates to
 ```
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite guilt Romaen|smite Romaen head chasten paralysis|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite guilt Romaen|smite Romaen head chasten paralysis|contemplate Romaen
 -- Guilt zeal, head limb, paralysis chasten.
 ```
 
 `pra` translates to
 ```
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite purge Romaen|smite Romaen right arm chasten paralysis|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite purge Romaen|smite Romaen right arm chasten paralysis|contemplate Romaen
 -- Purge zeal, right arm limb, paralysis chasten.
 ```
 
 `rnn` translates to
 ```
-queue addclear ebc!p!w!t touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen chasten recklessness|contemplate Romaen
+queue addclear full touch stuff|parry right leg|wield mace111111 shield111111|recite penance Romaen|smite Romaen chasten recklessness|contemplate Romaen
 -- Penance zeal, no limb, recklessness chasten.
 ```
 
