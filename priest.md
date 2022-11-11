@@ -250,7 +250,7 @@ You'll want an alias for angel push, for when you want to prone.
 
 ```lua
 -- New alias.
--- Pattern: ^(\w+)p(hh|ra|tt|la|rl|ll|nn)$
+-- Pattern: ^(\w)p(hh|ra|tt|la|rl|ll|nn)$
 
 local aff = {
   p = "penance",
