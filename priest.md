@@ -24,7 +24,7 @@ Here's an example of a target-setting alias.
 -- New alias: Set target
 -- Pattern: ^t (.+)$
 
-send("st " .. matches[2]) -- Set your target game-side
+send("st " .. matches[2]) -- Set your target game-side.
 target = matches[2]:lower():title() -- It is good convention that your target variable is case-sensitive.
 ```
 
